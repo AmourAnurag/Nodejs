@@ -1,4 +1,6 @@
-console.log("hello moto");
+const math=require("./math")
 
-console.log("I created own script start which call node index.js automatically write inside package json");
+console.log("hello moto");
+console.log(math.add(4,5));
+console.log(math.sub(8,5));
 
