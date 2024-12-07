@@ -1,4 +1,7 @@
 const fs = require("fs");
+const os =require("os")
+console.log(os.cpus().length);
+
 fs.writeFileSync(
   "./text.txt",
   "hi there my name is anurag singh and i am creating a new file using fs module of the node js"
